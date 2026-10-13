@@ -13,7 +13,7 @@ body.lock{overflow:hidden;height:100vh}
 @keyframes fl{50%{transform:translateY(-8px)}}@keyframes pu{50%{opacity:.45}}
 .wrap{width:var(--w);margin:0 auto;height:calc((11260 + var(--sh,0))*var(--u));overflow:hidden;position:relative}
 .pg{position:absolute;left:0;top:calc(-1402*var(--u));width:100%;height:calc((12662 + var(--sh,0))*var(--u))}
-.w1,.w2{position:absolute;left:0;width:100%;height:100%}.w1{top:calc(-1148*var(--u))}.w2{top:calc(-390*var(--u))}
+.w1,.w2{position:absolute;left:0;width:100%;height:100%;pointer-events:none}.w1>:not(.w2),.w2>*{pointer-events:auto}.w1{top:calc(-1148*var(--u))}.w2{top:calc(-390*var(--u))}
 .s{position:absolute;left:-1px;width:calc(100% + 2px);background-size:100% 100%}
 .a{position:absolute;left:calc(var(--x)*var(--u));top:calc(var(--y)*var(--u));width:calc(var(--w)*var(--u))}
 .a img{display:block;width:100%}
